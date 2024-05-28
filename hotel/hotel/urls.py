@@ -1,5 +1,5 @@
 """
-URL configuration for hotel project.
+URL configuration for myproject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -14,10 +14,23 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-
 from django.contrib import admin
 from django.urls import path
+from hotel_gio import views
+
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('', views.index, name='index'),
+    path('rooms/', views.rooms, name='rooms'),
+    path('book/', views.book, name='book'),
+    path('booking_success/', views.booking, name='booking_success'),
+    path('view/', views.view_bookings, name='view_bookings'),
+    path('signup/', views.signup_view, name='signup'),
+    path('login/', views.login, name='login'),
+    path('logout/', views.logout, name='logout'),
+    path('book_done/', views.book_done, name='book_done'),
+    path('login_done/', views.login_done, name='login_done'),
+
+
 ]

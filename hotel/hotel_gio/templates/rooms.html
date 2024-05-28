@@ -1,0 +1,91 @@
+{% load static %} <!-- Load static tag -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'hotel_gio/style.css' %}">
+    <title>Hotel Luxury</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="{% url 'rooms' %}">Rooms</a></li>
+                    <li><a href="{% url 'signup' %}">Sign Up</a></li>
+                    <li><a href="{% url 'login' %}">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="video-container">
+        <video autoplay loop muted id="video-woman">
+            <source src="{% static 'hotel_gio/suite.mp4' %}" type="video/mp4" id="video-woman"> <!-- Use Django static tag -->
+        </video>
+    </div>
+    </div>
+    <div id="icon">
+        <img src="{% static 'hotel_gio/Hotel.jpeg' %}" alt="Hotel Gio Luxury" id="my-icon"> <!-- Use Django static tag -->
+        <h3>Rooms</h3>
+        <p id="ita">Brand By Hotel Gio Luxury best rooms at cheap price</p>
+        <div class="rooms">
+            <div class="room">
+                <img src="{% static 'hotel_gio/room1.jpeg' %}" alt="Room 1" id="room1"> <!-- Use Django static tag -->
+                <h4>Single Room</h4>
+                <p id="ita">Single bed, TV, AC, Wi-Fi, Bathroom</p>
+                <p id="price">$100 per night</p>
+                <a href="{% url 'book' %}"><button id="book" type="submit">Book Now</button></a> <!-- Add link to 'book' page -->
+            </div>
+            <div class="room">
+                <img src="{% static 'hotel_gio/room2.jpeg' %}" alt="Room 2" id="room2"> <!-- Use Django static tag -->
+                <h4>Double Room</h4>
+                <p id="ita">Double bed, TV, AC, Wi-Fi, Bathroom</p>
+                <p id="price">$150 per night</p>
+                <a href="{% url 'book' %}"><button id="book">Book Now</button></a> <!-- Add link to 'book' page -->
+            </div>
+            <div class="room">
+                <img src="{% static 'hotel_gio/room3.jpeg' %}" alt="Room 3" id="room3"> <!-- Use Django static tag -->
+                <h4>Family Room</h4>
+                <p id="ita">Two double beds, TV, AC, Wi-Fi, Bathroom</p>
+                <p id="price">$200 per night</p>
+                <a href="{% url 'book' %}"><button id="book">Book Now</button></a> <!-- Add link to 'book' page -->
+            </div>
+            <div class="room">
+                <img src="{% static 'hotel_gio/room4.jpeg' %}" alt="Room 4" id="room4"> <!-- Use Django static tag -->
+                <h4>Presidential Suite</h4>
+                <p id="ita">King bed, TV, AC, Wi-Fi, Bathroom, Jacuzzi</p>
+                <p id="price">$500 per night</p>
+                <a href="{% url 'book' %}"><button id="book">Book Now</button></a> <!-- Add link to 'book' page -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p id="ita">Address: 123 Main Street, London, LDN W37BQ</p>
+                <p id="ita">Phone: 7745-4736-39</p>
+                <p id="ita">Email:GioHotel@99.com</p>
+                <p id="ita">Follow Us</p>
+                <ul id="social-media">
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="{% static 'hotel_gio/script.js' %}"></script> <!-- Use Django static tag -->
+    <script src="https://kit.fontawesome.com/c37d03c9b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

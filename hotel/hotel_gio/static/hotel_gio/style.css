@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00000017;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li a {
+    font-style: italic;
+    text-decoration: none;
+    color:goldenrod;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+li a:hover {
+    color: #fff;
+}
+
+
+nav {
+    border: solid 3px rgba(218, 165, 32, 0.58);
+    border-radius: 3%;
+    background-color:rgba(0, 0, 0, 0.906);
+    opacity: 0.9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+div.my-hotel {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+#italic {
+    font-style: italic;
+    color: goldenrod;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#hotel-gio {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#video-woman {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+#my-icon{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+    margin-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ita{
+    font-style: italic;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rooms{
+    text-align: center;
+    font-size: 40px;
+    color: goldenrod;
+    margin-top: 50px;
+    column-count: 1;
+    columns: 2;
+}
+
+#room1{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+
+}
+
+#room2{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+}
+
+#room3{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+}
+
+#room4{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+}
+
+#room5{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+}
+
+#room6{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: solid 3px goldenrod;
+}
+
+#price{
+    font-size: 20px;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+#book{
+    font-size: 20px;
+    color: goldenrod;
+    background-color: white;
+    font-style: italic;
+    border: solid 1px goldenrod;
+    border-radius: 5%;
+
+
+}
+
+#book:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+h4{
+    font-size: 20px;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+#roomlink a {
+    font-size: 30px;
+    color: goldenrod;
+    text-decoration: none;
+    margin-top: 70px;
+    cursor: pointer;
+    background-color: black;
+    border: solid 1px goldenrod;
+    border-radius: 5%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #roomlink a:hover {
+    color: #fff;
+}
+
+h4{
+    font-size: 20px;
+    color: goldenrod;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer-contact{
+    background-color: black;
+    opacity: 0.8;
+    border: solid 3px goldenrod;
+    border-radius: 3%;
+    margin-top: 50px;
+}
+
+.footer-contact h4{
+    font-size: 20px;
+    color: goldenrod;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-media{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 50px;
+}
+
+#book-room{
+    font-size: 20px;
+    color: goldenrod;
+    background-color:white;
+    font-style: italic;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#book_button{
+    font-size: 20px;
+    color: goldenrod;
+    background-color: white;
+    font-style: italic;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#book_button:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
