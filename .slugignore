@@ -1,17 +1,17 @@
-# Ignore all files and directories starting with "test"
-test*
+# Ignore node_modules folder
+node_modules/
 
-# Ignore specific file
-config.ini
+# Ignore build artifacts
+dist/
+build/
 
-# Ignore all files with the extension ".log"
+# Ignore log files
 *.log
 
-# Ignore all files in the "docs" directory
-/docs/*
+# Ignore temporary files
+*.tmp
+*.temp
 
-# Ignore all files in the "dist" directory and its subdirectories
-/dist/**
-
-# Ignore all files in the "node_modules" directory
-/node_modules/
+# Ignore IDE specific files
+.vscode/
+.idea/
