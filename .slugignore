@@ -15,3 +15,11 @@ build/
 # Ignore IDE specific files
 .vscode/
 .idea/
+
+# Exclude large files or directories
+/path/to/large/file
+/path/to/large/directory/
+
+# Exclude other large files or directories
+/another/path/to/large/file
+/another/path/to/large/directory/
