@@ -1,3 +1,5 @@
+# Ignore all files and directories
+*
 
 # Include specific files or directories
 !src/
@@ -11,3 +13,6 @@
 {.git,node_modules}/*
 {.git,node_modules}/**/*
 {.git,node_modules}/**/**/*
+
+# Heroku slug size limit
+{.git,node_modules}/**/**/**/*
