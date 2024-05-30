@@ -1,25 +1,15 @@
-# Ignore node_modules folder
-node_modules/
+# Ignore all files and directories
+*
 
-# Ignore build artifacts
-dist/
-build/
+# Include specific files or directories
+!src/
+!public/
 
-# Ignore log files
-*.log
+# Exclude large files
+*.mp4
+*.zip
 
-# Ignore temporary files
-*.tmp
-*.temp
-
-# Ignore IDE specific files
-.vscode/
-.idea/
-
-# Exclude large files or directories
-/path/to/large/file
-/path/to/large/directory/
-
-# Exclude other large files or directories
-/another/path/to/large/file
-/another/path/to/large/directory/
+# Limit the output size to 500MB
+{.git,node_modules}/*
+{.git,node_modules}/**/*
+{.git,node_modules}/**/**/*
