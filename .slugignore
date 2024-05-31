@@ -1,16 +1,12 @@
+# Add patterns to exclude files and directories from the slug
+# For more information, see: http://devcenter.heroku.com/articles/slug-compiler#ignoring-files-with-slugignore
 
-# Include specific files or directories
-!src/
-!public/
+# Ignore node_modules directory
+node_modules/
 
-# Exclude large files
-*.mp4
+# Ignore build output directory
+dist/
+# Ignore large files
+*.tar.gz
 *.zip
-
-# Limit the output size to 500MB
-{.git,node_modules}/*
-{.git,node_modules}/**/*
-{.git,node_modules}/**/**/*
-
-# Heroku slug size limit
-{.git,node_modules}/**/**/**/*
+*.rar
