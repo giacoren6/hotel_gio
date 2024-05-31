@@ -1,12 +1,1 @@
-# Add patterns to exclude files and directories from the slug
-# For more information, see: http://devcenter.heroku.com/articles/slug-compiler#ignoring-files-with-slugignore
-
-# Ignore node_modules directory
-node_modules/
-
-# Ignore build output directory
-dist/
-# Ignore large files
-*.tar.gz
-*.zip
-*.rar
+[]: # FILEPATH: /workspaces/hotel_gio/.slugignore
