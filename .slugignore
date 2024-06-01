@@ -1,1 +1,10 @@
-[]: # FILEPATH: /workspaces/hotel_gio/.slugignore
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/
