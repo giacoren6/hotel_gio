@@ -153,11 +153,15 @@ sympy==1.12
 tenacity==8.2.3
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
+tensorflow==2.16.1
+tensorflow-cpu==2.16.1
+tensorflow-io-gcs-filesystem==0.37.0
 termcolor==2.4.0
 terminado==0.18.1
 threadpoolctl==3.4.0
 tinycss2==1.2.1
 tomli==2.0.1
+torch==2.2.2
 tornado==6.4
 traitlets==5.14.2
 triton==2.2.0
